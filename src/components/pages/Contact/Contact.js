@@ -140,17 +140,3 @@ export default function Contact() {
   );
 }
 
-// Below is a possible functional Google Form that can be implemented to receive contact info and messages without a backend set-up
-
-// <div style={{ display: "flex", justifyContent: "center" }}>
-//   <iframe
-//     src="https://docs.google.com/forms/d/e/1FAIpQLScysYfJHsIA9Wvf5bYfiF_yPb5QtSX9wwZCdlxV42WoCxT_tQ/viewform?embedded=true"
-//     width="640"
-//     height="678"
-//     frameborder="0"
-//     marginheight="0"
-//     marginwidth="0"
-//   >
-//     Loading…
-//   </iframe>
-// </div>;

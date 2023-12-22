@@ -3,7 +3,6 @@ import React from "react";
 import Grid from "@mui/material/Grid";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import EmailIcon from "@mui/icons-material/Email";
 import "./Footer.css";
 
@@ -27,7 +26,7 @@ const Footer = () => {
             sx={{ fontSize: 50 }}
             onClick={(event) =>
               (window.location.href =
-                "https://www.linkedin.com/in/ryan-messett/")
+                "https://www.linkedin.com/in/frieda-fry-81944023a/")
             }
           />
           <GitHubIcon
@@ -35,15 +34,7 @@ const Footer = () => {
             className="pop-on-hover"
             sx={{ fontSize: 50 }}
             onClick={(event) =>
-              (window.location.href = "https://github.com/rmessett15")
-            }
-          />
-          <TwitterIcon
-            id="icon"
-            className="pop-on-hover"
-            sx={{ fontSize: 50 }}
-            onClick={(event) =>
-              (window.location.href = "https://twitter.com/rmessett15")
+              (window.location.href = "https://github.com/FriedaHF")
             }
           />
           <EmailIcon
@@ -51,7 +42,7 @@ const Footer = () => {
             className="pop-on-hover"
             sx={{ fontSize: 50 }}
             onClick={(event) =>
-              (window.location.href = "mailto:rmessett15@gmail.com")
+              (window.location.href = "mailto:friedah.fry@gmail.com")
             }
           />
         </Grid>
