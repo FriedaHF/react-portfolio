@@ -1,0 +1,10 @@
+/* About styles */
+
+#about-me-title {
+  display: flex;
+  justify-content: center;
+}
+
+#p-about {
+  text-align: center;
+}
